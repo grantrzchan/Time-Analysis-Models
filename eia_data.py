@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 import eia
-from eia_api_key import eia_api_key
+from api_key import eia_api_key
 
 def get_series(api, series_id):
     '''Return the time series dataframe, based on API and unique Series ID'''
